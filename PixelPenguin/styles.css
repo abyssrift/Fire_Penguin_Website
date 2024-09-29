@@ -1,0 +1,238 @@
+
+.opening_header{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bolder;
+    color:rgb(11, 84, 194);
+    
+}
+
+.name{
+    color:wheat;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+}
+
+.head_menu{
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: rgb(3, 3, 34);
+    margin-top: 0px;
+    vertical-align: top;
+    margin-bottom: 50px;
+
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0.5px;
+    border-style:ridge;
+    border-color: wheat;
+    
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+
+
+}
+
+
+.home_button{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(3, 3, 34);
+    color: wheat;
+    border: 0;
+    cursor: pointer;
+    width: 100px;
+}
+
+.home_button:hover{
+    background-color: wheat;
+    color: rgb(3, 3, 34);
+}
+
+
+body{
+    margin: 0;
+    background-color: rgb(3, 3, 34);
+    margin-top: 100px;
+}
+
+.logo{
+    height: 60px;
+    flex-shrink: 1;
+    max-width: 60px;
+    flex: 0 1 auto;
+}
+
+.spacing{
+    flex:1;
+}
+
+.main_block{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    max-width: 1000px;
+
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+
+    border-color:wheat;
+}
+
+.control_buttons{
+    display: grid;
+    
+}
+
+.image{
+    margin-left:20px;
+    border-color: wheat;
+    border-style: double;
+    min-width: 100px;
+    min-height: 100px;
+    margin-left: 100px;
+}
+
+
+.image_buttons{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(100, 100, 247);
+    color:wheat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.basic_button{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+
+    background-color: rgb(100, 100, 247);
+    color:wheat;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+
+    transition: opacity 0.5s;
+}
+
+
+.basic_button:hover{
+    opacity:0.7;
+}
+
+
+
+.preview_paragraph{
+color:wheat;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: xx-large;
+}
+
+
+.functions_use{
+    border-style: groove;
+    border-bottom: 0;
+    border-right: 0;
+    border-color: wheat;
+
+
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+    color: wheat;
+}
+
+.ending{
+    color: wheat;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+
+.filters_scroll_bar{
+    width:1400px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+
+    height: 170px;
+    background-color: rgb(3, 3, 34);
+    margin-top: 40px;
+    vertical-align: top;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-right: 0px;
+    border-top: 0.5px;
+    border-left: 0px;
+    border-bottom: 0.5px;
+    border-style:ridge;
+    border-color: wheat;
+}
+
+.filters_scroll_bar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .filters_scroll_bar::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888;
+  }
+  
+
+.image_preview{
+    display: grid 120px;
+    background-color: rgb(9, 9, 83);
+    color: rgb(9, 9, 83);
+    column-gap: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+
+    border-style: groove;
+    border-color: wheat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filters_button{
+    margin-bottom: 0px;
+    background-color: rgb(9, 9, 83);
+    border-width: 0;
+    cursor: pointer;
+}
+
+
+.filter_button_description{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.saving_station{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 300px;
+
+}
+
